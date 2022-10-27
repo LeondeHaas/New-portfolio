@@ -1,0 +1,118 @@
+/* font-weight: bold;
+font-family: 'Oswald', sans-serif; */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* main content header */
+
+.header-main {
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+    width: 100%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: black;
+    display: flex;
+    letter-spacing: 4px;
+    font-size: 10px;
+    font-weight: bold;
+    align-items: center;
+    justify-content: space-evenly;
+    color: #fff;
+}
+
+.header-main h1 {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color:#fff;
+}
+
+/* active color header */
+
+.btn {
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+}
+
+.active, .btn:hover {
+  /* background-image: 
+    linear-gradient(to right, #FF0000,#FF8000,#ffff00,#00ff00,#00ff80,#0000ff,#7f00ff, red);
+  -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;  
+  animation: rainbow-animation 120s linear infinite; */
+}
+
+/* @keyframes rainbow-animation {
+    to {
+        background-position: 500vh;
+    }
+} */
+
+/* RGB colors */
+
+/* @keyframes color-change {
+  0% { color: #FF0000; }
+  10% { color: #FF8000; }
+  20% { color: #ffff00; }
+  30% { color: #80ff00;}
+  40% { color: #00ff00;}
+  50% { color: #00ff80;}
+  60% { color: #00ffff;}
+  70% { color: #0080ff;}
+  80% { color: #0000ff;}
+  90% { color: #7f00ff;}
+  100% { color: #ff00ff;}
+} */
+
+/* main content body */
+
+.main-container {
+    width: 100%;
+    height: auto;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+/* .banner-image {
+    width: 50%;
+    height: 600px;
+    filter: grayscale();
+} */
+
+.left-banner {
+    width: 25%;
+    height: 750px;
+}
+
+.image-banner {
+    width: 100%;
+    height: 100%;
+    filter: grayscale();
+}
+
+.right-banner {
+    width: 75%;
+    height: 750px;
+    background-color: rgb(37, 36, 36);
+} 
+/* header-responsive */
+
+@media (max-width:715px) {
+    .header-main {
+        flex-direction: column;
+        height: auto;
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+}
