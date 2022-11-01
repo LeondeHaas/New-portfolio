@@ -43,28 +43,37 @@
   align-items: center;
   justify-content: center;
   display: flex;
-  height: 90vh;
+  height: 50vh;
 }
 
 .left-container {
   background-color: #fff;
   width: 45%;
-  height: 90vh;
+  height: 600px;
   font-family: "Oswald", sans-serif;
   text-align: center;
 }
 
 .middle-container {
-  background-color: lightgreen;
   font-family: "Oswald", sans-serif;
   width: 30%;
-  height: 90vh;
+  height: 600px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.middle-container img {
+  width: 600px;
+  height: 600px;
+  position: absolute;
+  filter: grayscale(100);
+  margin-top: 15px;
 }
 
 .right-container {
   background-color: #fff;
   width: 45%;
-  height: 90vh;
+  height: 600px;
   font-family: "Oswald", sans-serif;
   text-align: center;
 }
