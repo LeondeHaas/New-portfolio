@@ -156,6 +156,7 @@ button:hover {
   border: 0;
   font-family: "Oswald", sans-serif;
   transition: ease-out 0.25s;
+  border: 1p solid #f06454;
   font-size: 15px;
 }
 .text-box .button-2 {
@@ -265,7 +266,7 @@ button:hover {
     height: 275px;
   }
   .button-container .button-2 {
-    margin-left: 0;
+    margin-left: 20px;
   }
   .right-container {
     height: 100%;
