@@ -60,10 +60,10 @@
   background-color: #fff;
   display: flex;
   letter-spacing: 3px;
-  font-size: 5px;
+  font-size: 9px;
   align-items: center;
   color: #000;
-  height: 60px;
+  height: 100px;
   // position: fixed;
   a {
     text-decoration: none;
@@ -123,9 +123,10 @@
   justify-content: center;
   display: flex;
   img {
-    width: 350px;
-    height: 350px;
+    width: 550px;
+    height: 550px;
     box-shadow: 10px 10px;
+    margin-top: 50px;
   }
 }
 
@@ -138,42 +139,42 @@
   h3 {
     color: #f06454;
     font-family: "Oswald", sans-serif;
-    font-size: 15px;
+    font-size: 25px;
   }
 
   h1 {
-    font-size: 30px;
+    font-size: 60px;
     font-family: 'Montserrat', sans-serif;
   }
 
   p {
     font-family: 'Montserrat', sans-serif;
-    font-size: 13px;
+    font-size: 20px;
   }
 
   .button-1 {
-    width: 125px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    width: 150px;
+    padding-top: 15px;
+    padding-bottom: 15px;
     background-color: #f06454;
     color: #fff;
     border: 0;
     font-family: "Oswald", sans-serif;
     transition: ease-out 0.25s;
-    font-size: 10px;
+    font-size: 15px;
   }
 
   .button-2 {
-    width: 125px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    width: 150px;
+    padding-top: 15px;
+    padding-bottom: 15px;
     background-color: #fff;
     color: #000;
     font-family: "Oswald", sans-serif;
     // margin-left: 20px;
     transition: ease-out 0.25s;
     border: 1px solid black;
-    font-size: 10px;
+    font-size: 15px;
   }
 }
 

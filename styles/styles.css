@@ -53,10 +53,10 @@ button:hover {
   background-color: #fff;
   display: flex;
   letter-spacing: 3px;
-  font-size: 5px;
+  font-size: 9px;
   align-items: center;
   color: #000;
-  height: 60px;
+  height: 100px;
 }
 .header-main a {
   text-decoration: none;
@@ -115,9 +115,10 @@ button:hover {
   display: flex;
 }
 .right-container img {
-  width: 350px;
-  height: 350px;
+  width: 550px;
+  height: 550px;
   box-shadow: 10px 10px;
+  margin-top: 50px;
 }
 
 .text-box {
@@ -129,37 +130,37 @@ button:hover {
 .text-box h3 {
   color: #f06454;
   font-family: "Oswald", sans-serif;
-  font-size: 15px;
+  font-size: 25px;
 }
 .text-box h1 {
-  font-size: 30px;
+  font-size: 60px;
   font-family: "Montserrat", sans-serif;
 }
 .text-box p {
   font-family: "Montserrat", sans-serif;
-  font-size: 13px;
+  font-size: 20px;
 }
 .text-box .button-1 {
-  width: 125px;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  width: 150px;
+  padding-top: 15px;
+  padding-bottom: 15px;
   background-color: #f06454;
   color: #fff;
   border: 0;
   font-family: "Oswald", sans-serif;
   transition: ease-out 0.25s;
-  font-size: 10px;
+  font-size: 15px;
 }
 .text-box .button-2 {
-  width: 125px;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  width: 150px;
+  padding-top: 15px;
+  padding-bottom: 15px;
   background-color: #fff;
   color: #000;
   font-family: "Oswald", sans-serif;
   transition: ease-out 0.25s;
   border: 1px solid black;
-  font-size: 10px;
+  font-size: 15px;
 }
 
 /* header-responsive */
