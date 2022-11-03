@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: #e8e4ec;
+}
+
 button {
   letter-spacing: 3px;
   cursor: pointer;
@@ -123,9 +127,10 @@ button:hover {
 
 .text-box {
   width: 100%;
-  height: auto;
+  height: 100%;
   padding-left: 75px;
   padding-right: 75px;
+  margin-top: 175px;
 }
 .text-box h3 {
   color: #f06454;
@@ -158,6 +163,7 @@ button:hover {
   background-color: #fff;
   color: #000;
   font-family: "Oswald", sans-serif;
+  margin-left: 20px;
   transition: ease-out 0.25s;
   border: 1px solid black;
   font-size: 15px;
@@ -178,7 +184,26 @@ button:hover {
     margin-top: 7px;
   }
 }
+@media (max-width: 1280px) {
+  .text-box h1 {
+    font-size: 40px;
+  }
+  .text-box p {
+    font-size: 20px;
+  }
+  .right-container img {
+    width: 350px;
+    height: 350px;
+  }
+}
 @media (max-width: 960px) {
+  .main-container {
+    flex-direction: column-reverse;
+  }
+  .right-container, .left-container {
+    width: 100%;
+    height: 60vh;
+  }
   .text-box h1 {
     font-size: 25px;
   }
@@ -197,9 +222,13 @@ button:hover {
     margin-top: 15px;
   }
 }
-@media (min-width: 960px) {
+@media (max-width: 470px) {
+  .right-container img {
+    width: 275px;
+    height: 275px;
+  }
   .button-container .button-2 {
-    margin-left: 20px;
+    margin-left: 0;
   }
 }
 /*# sourceMappingURL=styles.css.map *//*# sourceMappingURL=styles.css.map */
