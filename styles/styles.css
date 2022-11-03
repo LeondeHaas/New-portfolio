@@ -102,7 +102,7 @@ button:hover {
 
 .left-container {
   width: 50%;
-  height: 100vh;
+  height: 85vh;
   justify-content: center;
   align-items: center;
   display: flex;
@@ -110,13 +110,13 @@ button:hover {
 
 .right-container {
   width: 50%;
-  height: 100vh;
+  height: 85vh;
   justify-content: center;
   display: flex;
 }
 .right-container img {
-  width: 550px;
-  height: 550px;
+  width: 500px;
+  height: 500px;
   box-shadow: 10px 10px;
   margin-top: 50px;
 }

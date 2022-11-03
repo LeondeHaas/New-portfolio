@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+// body {
+//   height: 100%;
+// }
+
 // main content header animations
 
 // button animations website
@@ -109,9 +113,11 @@
   display: flex;
 }
 
+$height: 85vh;
+
 .left-container {
   width: 50%;
-  height: 100vh;
+  height: $height;
   justify-content: center;
   align-items: center;
   display: flex;
@@ -119,12 +125,12 @@
 
 .right-container {
   width: 50%;
-  height: 100vh;
+  height: $height;
   justify-content: center;
   display: flex;
   img {
-    width: 550px;
-    height: 550px;
+    width: 500px;
+    height: 500px;
     box-shadow: 10px 10px;
     margin-top: 50px;
   }
