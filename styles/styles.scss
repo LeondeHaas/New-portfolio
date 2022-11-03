@@ -89,18 +89,6 @@
       color: #fff;
     }
   }
-
-  .logo {
-    width: 40%;
-    height: 100px;
-
-    img {
-      width: 250px;
-      height: 100px;
-      margin-left: 40px;
-    }
-  }
-
   .pages {
     width: 100%;
     justify-content: end;
@@ -127,17 +115,14 @@
   justify-content: center;
   align-items: center;
   display: flex;
-  margin-top: 55px;
 }
 
 .right-container {
   width: 50%;
   height: 100vh;
-  margin-top: 55px;
   justify-content: center;
   display: flex;
   img {
-    margin-top: 75px;
     width: 350px;
     height: 350px;
     box-shadow: 10px 10px;
