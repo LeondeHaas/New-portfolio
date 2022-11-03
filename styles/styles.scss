@@ -4,7 +4,21 @@
   box-sizing: border-box;
 }
 
-// main content header underline animation
+// main content header animations
+
+// button animations website
+ button {
+  letter-spacing: 3px;
+  cursor: pointer;
+  color: white;
+  background: linear-gradient(to left, transparent 50%, teal 50%);
+  background-size: 200%;
+  background-position: right;
+
+  &:hover {
+    background-position: left;
+    }
+  }
 
 .hover-underline-animation {
   display: inline-block;
@@ -38,7 +52,7 @@
 }
 
 .header-main {
-  font-weight: bold;
+  // font-weight: bold;
   font-family: 'Montserrat', sans-serif;
   width: 100%;
   padding-top: 40px;
@@ -46,10 +60,10 @@
   background-color: #fff;
   display: flex;
   letter-spacing: 3px;
-  font-size: 10px;
+  font-size: 5px;
   align-items: center;
   color: #000;
-  height: 100px;
+  height: 60px;
   position: fixed;
   a {
     text-decoration: none;
@@ -58,18 +72,18 @@
   }
 
   button {
-
+    transition: ease-out 0.25s;
     width: 150px;
-    height: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
     background-color: #f06454;
     color: #fff;
     border: 0;
     font-family: 'Montserrat', sans-serif;
-    letter-spacing: 3px;
     margin-left: 25px;
     margin-right: 25px;
     font-weight: bold;
-    font-size: 17px;
+    font-size: 9px;
     a {
       text-decoration: none;
       color: #fff;
@@ -109,48 +123,74 @@
 
 .left-container {
   width: 50%;
-  height: 650px;
+  height: 100vh;
   justify-content: center;
   align-items: center;
   display: flex;
+  margin-top: 55px;
+}
+
+.right-container {
+  width: 50%;
+  height: 100vh;
+  margin-top: 55px;
+  justify-content: center;
+  display: flex;
+  img {
+    margin-top: 75px;
+    width: 350px;
+    height: 350px;
+    box-shadow: 10px 10px;
+  }
 }
 
 .text-box {
-  width: 500px;
-  height: 250px;
+  width: 100%;
+  height: auto;
+  padding-left: 75px;
+  padding-right: 75px;
 
   h3 {
     color: #f06454;
     font-family: "Oswald", sans-serif;
-    font-size: 25px;
+    font-size: 15px;
   }
 
   h1 {
-    font-size: 60px;
+    font-size: 30px;
     font-family: 'Montserrat', sans-serif;
   }
 
   p {
     font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
   }
 
-  button {
-    width: 150px;
-    height: 50px;
+  .button-1 {
+    width: 125px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     background-color: #f06454;
     color: #fff;
     border: 0;
     font-family: "Oswald", sans-serif;
-    letter-spacing: 3px;
+    transition: ease-out 0.25s;
+    font-size: 10px;
+  }
+
+  .button-2 {
+    width: 125px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #fff;
+    color: #000;
+    font-family: "Oswald", sans-serif;
+    // margin-left: 20px;
+    transition: ease-out 0.25s;
+    border: 1px solid black;
+    font-size: 10px;
   }
 }
-
-.right-container {
-  width: 50%;
-  height: 650px;
-  background-color: rgba(0, 0, 255, 0.328);
-}
-
 
 /* header-responsive */
 @media (max-width: 750px) {
@@ -169,4 +209,56 @@
     margin-top: 7px;
   }
 
-}/*# sourceMappingURL=styles.css.map */
+}
+
+// @media (max-width: 1280px) {
+//   .text-box {
+//     h1 {
+//       font-size: 40px;
+//     }
+//   }
+// }
+
+// @media (max-width: 1150px) {
+//   .header-main-space {
+//   height: 225px;
+//    }
+// }
+
+@media (max-width: 960px) {
+  .text-box {
+    h1 {
+      font-size: 25px;
+    }
+
+    h3 {
+      font-size: 17px;
+    }
+
+    p {
+      font-size: 15px;
+    }
+
+    .button-container {
+      align-items: center;
+      display: flex;
+      flex-wrap: wrap;
+    } button {
+      margin-top: 15px;
+    }    
+  }
+}
+
+
+@media (min-width: 960px) {
+  .button-container {
+    .button-2 {
+      margin-left: 20px;
+    }
+  }
+}
+
+
+
+
+/*# sourceMappingURL=styles.css.map */
