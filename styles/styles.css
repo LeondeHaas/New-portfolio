@@ -57,7 +57,6 @@ button:hover {
   align-items: center;
   color: #000;
   height: 60px;
-  position: fixed;
 }
 .header-main a {
   text-decoration: none;
